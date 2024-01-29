@@ -10,7 +10,7 @@ public class Principal {
         System.out.println("Quantas notas serão inseridas?");
         int quantidade = scan.nextInt();
 
-        while (quantidade < 2 || quantidade > 4) {
+        while (quantidade <= 2 || quantidade > 4) {
 
             System.out.println("Quantas notas serão inseridas?");
             quantidade = scan.nextInt();
